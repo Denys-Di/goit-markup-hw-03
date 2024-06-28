@@ -1,0 +1,120 @@
+body {
+
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+    background-color: #fff;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+nav ul {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+
+}
+.bloc_a {
+    background: #2e2f42;
+}
+.bloc_b {
+    background-color: #fff;
+}
+.title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.container_button {
+    font-family: "Roboto", sans-serif;
+    background: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    cursor: pointer;  
+}
+.container_button:hover,
+.container_button:focus {
+    background: #404BBF;
+}
+.title_b {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize
+}
+.title_c {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.title_text {
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.card_content {
+    background-color:  #F4F4FD;
+}
+.project_card .project_photo {
+    background-color: #FFFFFF;
+}
+.floor {
+    background: #2e2f42;
+}
+.floor_text {
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
+.social_link {
+    color: #434455;
+}
+.link {
+    color: #2e2f42;
+}
+.info {
+    font-style: normal;
+    letter-spacing: 0.02em;
+}
+.social_link:hover,
+.social_link:focus {
+    color: #404bbf;
+    cursor: pointer;
+    
+}
+.link:hover,
+.link:focus {
+    color: #404bbf;
+    cursor: pointer;
+}
+.logo {
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.logo_text {
+    color: #2e2f42;
+    font-weight: 700;
+}
+.logo_text_a {
+    font-weight: 700;
+    color: #f4f4fd;
+}
