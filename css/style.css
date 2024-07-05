@@ -52,10 +52,12 @@ nav ul {
     max-width: 264px;
     width: calc((100% - 72px) / 4);
 }
-.feature, p {
-    padding-top: 8px;
+.feature, h3 {
+    padding-bottom: 8px;
 }
 .bloc_a {
+    padding-top: 188px;
+    padding-bottom: 188px;
     background: #2e2f42;
     height: 600px;
 }
@@ -69,9 +71,6 @@ nav ul {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.bloc_c, h2 {
-    padding-top: 120px;
-}
 .title {
     font-weight: 700;
     font-size: 56px;
@@ -82,11 +81,12 @@ nav ul {
     max-width: 496px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 188px;
     padding-bottom: 48px;
+ 
 }
 .container_button {
     display: block;
+    border: none;
     padding: 16px 32px;
     background: #4d5ae5;
     font-weight: 500;
@@ -129,12 +129,15 @@ nav ul {
 }
 .card_content {
     background-color:  #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .project_card {
     display: flex;
     align-items: center;
     gap: 24px;
     padding-bottom: 120px;
+    border-radius: 0px 0px 4px 4px;
 }
 .project_photo {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -152,6 +155,10 @@ nav ul {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
+}
+.logo_link {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .social_link {
     color: #434455;
@@ -229,8 +236,9 @@ img {
     height: auto;
 }
 .photo_text {
-    padding: 32px 16px;
+    padding: 32px 0;
     text-align: center;
+    margin-bottom: 8px;
 }
 .team_card {
     display: flex;
@@ -239,7 +247,9 @@ img {
     gap: 48px 24px;
 }
 .card_text {
-    padding-top: 32px;
-    padding-left: 16px;
-    padding-bottom: 32px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+}
+.card_text, h3 {
+    margin-bottom: 8px;
 }
