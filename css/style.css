@@ -137,10 +137,11 @@ nav ul {
     align-items: center;
     gap: 24px;
     padding-bottom: 120px;
-    border-radius: 0px 0px 4px 4px;
+    
 }
 .project_photo {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 .project_card .project_photo {
     background-color: #FFFFFF;
@@ -249,6 +250,7 @@ img {
 .card_text {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 .card_text, h3 {
     margin-bottom: 8px;
